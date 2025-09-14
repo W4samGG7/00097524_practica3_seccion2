@@ -1,0 +1,45 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+h2 {
+  font-weight:bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.shopping-cart {
+  animation: slideIn 3s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.btn-pay {   
+  color: white;        
+  background-color:var(--blue);  
+  padding: 5px 10px;                 
+  border-radius: 25px;          
+  cursor: pointer;       
+}
+
+.btn-pay:hover {
+  background-color: blue;
+}
+
