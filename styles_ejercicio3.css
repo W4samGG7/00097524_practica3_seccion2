@@ -1,7 +1,7 @@
 :root {
   --blue: #1e90ff;
   --white: #ffffff;
-  --pink: #E12AFB;
+  --pink: #e12afb;
   --green: #90ee90;
 }
 
@@ -29,7 +29,7 @@
   display: grid;
   grid-template-columns: 100px 100px 100px 100px;
   grid-template-rows: auto;
-  grid-template-areas: 
+  grid-template-areas:
     "header header header header"
     "main main . sidebar"
     "footer footer footer footer";

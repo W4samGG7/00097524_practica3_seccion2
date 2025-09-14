@@ -1,7 +1,7 @@
 :root {
   --blue: #1e90ff;
   --white: #ffffff;
-  --pink: #E12AFB;
+  --pink: #e12afb;
 }
 
 .box {
@@ -11,14 +11,14 @@
   flex-wrap: wrap;
 }
 
-.box div{
+.box div {
   margin: 10px 5px;
   border-radius: 8px;
   padding: 5px;
   background-color: var(--blue);
-  width:33%;
+  width: 33%;
 }
 
-.box div:first-child{
+.box div:first-child {
   width: 64%;
 }
